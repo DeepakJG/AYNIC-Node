@@ -2,11 +2,12 @@
   "name": "deepakjg",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "main.html",
   "dependencies": {
     "body-parser": "^1.14.2",
     "express": "^4.13.3",
-    "mongoose": "^4.3.4"
+    "mongoose": "^4.3.4",
+    "pg": "4.4.3"
   },
   "devDependencies": {},
   "scripts": {
