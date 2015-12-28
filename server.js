@@ -12,9 +12,9 @@ app.use(bodyParser.json());
 
 app.use('/api', require('./routes/api'));
 
-app.get("/", function(req, res){
-  res.send("Working Android Demo");
-});
+//app.get("/", function(req, res){
+//  res.send("Working Android Demo");
+//});
 
 app.listen(3000);
 
